@@ -48,6 +48,7 @@ public class Sample13GetTextBoundsView extends View {
         yOffsets[4] = - (textBounds.top + textBounds.bottom) / 2;
         paint2.getTextBounds(texts[5], 0, texts[5].length(), textBounds);
         yOffsets[5] = - (textBounds.top + textBounds.bottom) / 2;
+        System.out.println();
     }
 
     @Override
